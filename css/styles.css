@@ -181,12 +181,13 @@ body {
 }
 
 /* Portfolio */
-.contacts.current {
-    color: var(--interactive-color);
-}
+
+/* .contacts.current { */
+/* color: var(--interactive-color); */
+/* } */
 
 .projects-button {
-    color: var(--subtitle-text-color);
+    color: var(--title-text-color);
     background: #F5F4FA;
     font-weight: 500;
     font-size: 16px;
@@ -210,21 +211,21 @@ body {
     text-decoration: none;
 }
 
+.projects-link:hover,
+.projects-link:focus {
+    color: var(--interactive-color);
+}
+
 .projects-link-title {
     color: var(--title-text-color);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
-.projects-link-title:hover,
-.projects-link-title:focus {
-    color: var(--interactive-color);
-}
-
-.projects-desc {
+.projects-link-desc {
     font-size: 16px;
     line-height: 1.88;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
